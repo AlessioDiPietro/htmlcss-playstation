@@ -1,0 +1,12 @@
+/* area debug */
+.debug header section {
+    min-height: 100px;
+    border: 1px solid blue;
+}
+
+
+/* header */
+.head_top {
+    background-color: black;
+    color: white;
+}
