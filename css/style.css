@@ -4,6 +4,23 @@
     border: 1px solid blue;
 }
 
+.debug .maxi_banner {
+    min-height: 200px;
+    background-color: navy;
+}
+.debug .maxi_banner .col {
+    min-height: 100px;
+    background-color: lightblue;
+}
+.multi_selection {
+    min-height: 100px;
+    background-color: red;
+}
+.selection {
+    background-color: greenyellow;
+    height: 20px;
+}
+
 
 /* header */
 .head_top {
