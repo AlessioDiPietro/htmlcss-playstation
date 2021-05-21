@@ -199,20 +199,24 @@ header a{
 .img_ps5 img {
     width: 100%;
 }
-.accessory_card.selected {
-    border:none;
-    border-bottom: 2px solid blue
-} {
-    
+.accessory_card {
+    opacity: 0.4;
 }
+.accessory_card:hover {
+    border:none;
+    border-bottom: 2px solid blue;
+    opacity: 1;
+    margin-bottom: -2px;
+
+} 
 .accessory_card img {
     width: 100%;
 }
 .des_ps5{
-    
     margin-top:1rem;
+    padding-bottom: 1rem;
 }
 .des_ps5 a {
     text-decoration: none;
-    color:#9a9a9a;
+    color:black;
 }
