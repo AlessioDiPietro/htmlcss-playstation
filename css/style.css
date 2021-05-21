@@ -10,8 +10,8 @@
     background-color: navy;
 }
 .debug .maxi_banner .row div {
-    min-height: 100px;
-    background-color: lightblue;
+    /* min-height: 100px; */
+    /* background-color: lightblue; */
 }
 .multi_selection {
     min-height: 100px;
@@ -136,11 +136,13 @@ header a{
 .jumbo{
     color:white;
 }
-
 .maxi_banner {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
     margin-top:136.2px;
     min-height: 665px;
+}
+.maxi_banner h2 {
+    font-size: 226%;
 }
