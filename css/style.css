@@ -5,14 +5,14 @@
     border: 1px solid blue;
 } */
 /* jumbo */
-.debug .maxi_banner {
+/* .debug .maxi_banner { */
     /* min-height: 200px; */
-    background-color: navy;
-}
-.debug .maxi_banner .row div {
+    /* background-color: navy;
+} */
+/* .debug .maxi_banner .row div { */
     /* min-height: 100px; */
     /* background-color: lightblue; */
-}
+
 /* .multi_selection {
     min-height: 100px;
     background-color: red;
@@ -23,26 +23,26 @@
 } */
 
 /* ps5 */
-.section_ps {
+/* .section_ps {
     min-height: 400px;
     background-color: rgb(255, 187, 187);
     padding: 20px;
-}
-.title_ps {
+} */
+/* .title_ps {
     background-color: rgb(173, 6, 6);
     min-height: 60px;
     border: 1px solid blueviolet;
-}
-.sub_title_ps5, .img_ps5 {
+} */
+/* .sub_title_ps5, .img_ps5 {
     background-color: rgb(109, 4, 4);
     min-height: 60px;
     border: 1px solid blueviolet;
-}
-.accessory_card {
+} */
+/* .accessory_card {
     background-color:rgb(177, 172, 173);
     min-height: 30px;
     border: 1px solid blueviolet;
-}
+} */
 
 /* nuove uscite */
 .bg_darkgrey {
@@ -112,6 +112,13 @@
 
 
 /* generale */
+h2 {
+    font-size: 250%;
+    font-weight: 600;
+}
+h3 {
+    font-weight: 600;
+}
 
 /* header */
 header a{
@@ -149,8 +156,9 @@ header a{
     margin-top:136.2px;
     min-height: 665px;
 }
-.maxi_banner h2 {
-    font-size: 226%;
+.btn_banner {
+    background-color: #cd3d0f;
+    color: white;
 }
 .selection {
     transition: 0.5s ;
@@ -169,4 +177,42 @@ header a{
 }
 .selection:visited img{
     border: 1px solid blue;
+}
+
+/* ps5 */
+.title_ps {
+    font-size: small;
+}
+.title_ps span:first-child {
+    color: #0072ce
+}
+.title_ps span, 
+.sub_title_ps5 span{
+    color: #9a9a9a;
+}
+.btn_blue {
+    background-color: #2d64e6;
+    color:white;
+    display: block;
+    margin: 2rem 0;
+}
+.img_ps5 img {
+    width: 100%;
+}
+.accessory_card.selected {
+    border:none;
+    border-bottom: 2px solid blue
+} {
+    
+}
+.accessory_card img {
+    width: 100%;
+}
+.des_ps5{
+    
+    margin-top:1rem;
+}
+.des_ps5 a {
+    text-decoration: none;
+    color:#9a9a9a;
 }
