@@ -109,13 +109,18 @@
 /* header */
 header a{
     color:black !important;
+    font-weight: bold;
 }
+/* head-top */
 .head_top {
     background-color: black;
     color: white;
 }
+.head_top img {
+    width: 10rem;
+}
 
-/* head chevron-down */
+/* head-down */
 .dropdown-toggle::after {
     content: none;
 }
