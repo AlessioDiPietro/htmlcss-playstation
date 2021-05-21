@@ -112,3 +112,8 @@
     background-color: black;
     color: white;
 }
+
+/* head down left */
+.dropdown-toggle::after {
+    content: none;
+}
