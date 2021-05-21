@@ -13,14 +13,14 @@
     /* min-height: 100px; */
     /* background-color: lightblue; */
 }
-.multi_selection {
+/* .multi_selection {
     min-height: 100px;
     background-color: red;
-}
-.selection {
+} */
+/* .selection {
     background-color: greenyellow;
     height: 20px;
-}
+} */
 
 /* ps5 */
 .section_ps {
@@ -50,6 +50,10 @@
 }
 .nuove_uscite {
     background-color: orange;
+}
+.debug .maxi_banner_2 {
+    min-height: 200px;
+    background-color: navy;
 }
 
 
@@ -107,6 +111,8 @@
 /* fine area debug */
 
 
+/* generale */
+
 /* header */
 header a{
     color:black !important;
@@ -145,4 +151,22 @@ header a{
 }
 .maxi_banner h2 {
     font-size: 226%;
+}
+.selection {
+    transition: 0.5s ;
+}
+.selected {
+    border: 2px solid blue;
+    padding: 3px;
+    width: 95% !important;
+}
+.selection img{
+    width: 100%;
+    border-radius: 10%; 
+}
+.selection:hover {
+    margin-top: 0rem;
+}
+.selection:visited img{
+    border: 1px solid blue;
 }
