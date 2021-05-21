@@ -220,3 +220,20 @@ header a{
     text-decoration: none;
     color:black;
 }
+
+/* nuove uscite */
+.nuove_uscite {
+    background-color: #1f1f1f;
+}
+.maxi_banner_2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    color:white;
+    background-position: center;
+    background-size: cover;
+}
+.color_white {
+    color: white;
+}
+.nuove_uscite .selection:hover{
+    margin-bottom:-2px;
+}
