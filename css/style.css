@@ -1,8 +1,9 @@
 /* area debug */
-.debug header section {
+
+/* .debug header section {
     min-height: 100px;
     border: 1px solid blue;
-}
+} */
 /* jumbo */
 .debug .maxi_banner {
     min-height: 200px;
@@ -121,9 +122,17 @@ header a{
 }
 
 /* head-down */
+.head_bottom {
+    background-color: white;
+}
 .dropdown-toggle::after {
     content: none;
 }
 .nav-item img {
     width: 1rem;
+}
+
+.maxi_banner {
+    background-image: url("../img/jumbo-bg.png");
+    margin-top:136.2px;
 }
