@@ -63,9 +63,9 @@
     background-color: gold;
 }
 .ps_plus aside {
-    min-height: 120px;
+    /* min-height: 120px;
     background-color: silver;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 /* sconti */
@@ -242,4 +242,20 @@ header a{
 /* PS4 */
 .card {
     border:none;
+}
+
+/* plus */
+.ps_plus {
+    background-color: #bebcbb;
+}
+.btn_plus {
+    background-color: lightgrey;
+    color: #2d64e6;
+    width: inherit;
+}
+.plus_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:2rem;
 }
