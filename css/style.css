@@ -182,6 +182,7 @@ header a{
 /* ps5 */
 .title_ps {
     font-size: small;
+    text-align: center;
 }
 .title_ps span:first-child {
     color: #0072ce
@@ -236,4 +237,9 @@ header a{
 }
 .nuove_uscite .selection:hover{
     margin-bottom:-2px;
+}
+
+/* PS4 */
+.card {
+    border:none;
 }
