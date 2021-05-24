@@ -58,10 +58,10 @@
 
 
 /* ps plus */
-.ps_plus {
+/* .ps_plus {
     min-height: 300px;
     background-color: gold;
-}
+} */
 .ps_plus aside {
     /* min-height: 120px;
     background-color: silver;
@@ -80,7 +80,7 @@
 }
 
 /* ps-now */
-.ps_now {
+/* .ps_now {
     min-height: 300px;
     background-color: purple;
 }
@@ -88,7 +88,7 @@
     min-height: 120px;
     background-color: green;
     border: 1px solid black;
-}
+} */
 
 /* social */
 .social {
@@ -119,7 +119,14 @@ h2 {
 h3 {
     font-weight: 600;
 }
-
+.accessory_card img,
+.img_ps5 img,
+.nuovi_sconti img {
+    width: 100%;
+}
+.color_white {
+    color: white;
+}
 /* header */
 header a{
     color:black !important;
@@ -128,16 +135,12 @@ header a{
 /* head-top */
 .head_top {
     background-color: black;
-    color: white;
 }
 .head_top img {
     width: 10rem;
 }
 
 /* head-down */
-.head_bottom {
-    background-color: white;
-}
 .dropdown-toggle::after {
     content: none;
 }
@@ -146,9 +149,6 @@ header a{
 }
 
 /* jumbo */
-.jumbo{
-    color:white;
-}
 .maxi_banner {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
@@ -158,7 +158,6 @@ header a{
 }
 .btn_banner {
     background-color: #cd3d0f;
-    color: white;
 }
 .selection {
     transition: 0.5s ;
@@ -187,18 +186,15 @@ header a{
 .title_ps span:first-child {
     color: #0072ce
 }
-.title_ps span, 
-.sub_title_ps5 span{
-    color: #9a9a9a;
+.title_ps p, 
+.sub_title_ps5 span,
+.nuovi_sconti p{
+    color: grey;
 }
 .btn_blue {
     background-color: #2d64e6;
-    color:white;
     display: block;
     margin: 2rem 0;
-}
-.img_ps5 img {
-    width: 100%;
 }
 .accessory_card {
     opacity: 0.4;
@@ -208,11 +204,7 @@ header a{
     border-bottom: 2px solid blue;
     opacity: 1;
     margin-bottom: -2px;
-
 } 
-.accessory_card img {
-    width: 100%;
-}
 .des_ps5{
     margin-top:1rem;
     padding-bottom: 1rem;
@@ -228,13 +220,10 @@ header a{
 }
 .maxi_banner_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    color:white;
     background-position: center;
     background-size: cover;
 }
-.color_white {
-    color: white;
-}
+
 .nuove_uscite .selection:hover{
     margin-bottom:-2px;
 }
@@ -242,6 +231,9 @@ header a{
 /* PS4 */
 .card {
     border:none;
+}
+.mb_2px {
+    margin-bottom: 2px;
 }
 
 /* plus */
@@ -258,4 +250,13 @@ header a{
     flex-direction: column;
     justify-content: space-between;
     padding:2rem;
+}
+.adapt_img {
+    height: 100%;
+    width: 100%;
+}
+
+/* now */
+.ps_now {
+    background-color: #161c3b;
 }
