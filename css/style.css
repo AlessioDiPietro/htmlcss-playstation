@@ -144,6 +144,7 @@ header a{
 .head_top img {
     width: 10rem;
 }
+
 /* head-down */
 .dropdown-toggle::after {
     content: none;
@@ -165,6 +166,7 @@ header a{
 }
 .drop_items{
     filter: blur(1px);
+    width: 500px;
 }
 .drop_items:hover {
     background-color:unset;
@@ -172,7 +174,7 @@ header a{
     filter: blur(0);
 }
 .drop_items img{
-    width: 5% !important;
+    width: 100px !important;
 }
 /* jumbo */
 .maxi_banner {
