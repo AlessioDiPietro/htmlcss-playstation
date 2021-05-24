@@ -275,7 +275,7 @@ header a{
 .plus_left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     padding:2rem;
 }
 .adapt_img {
