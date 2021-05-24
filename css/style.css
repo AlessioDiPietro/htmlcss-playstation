@@ -154,7 +154,26 @@ header a{
 .head_bottom {
     background-color: white;
 }
-
+.head_bottom a:focus .chev_down{
+    display: none;
+}
+.chev_up {
+    display: none;
+}
+.head_bottom a:focus .chev_up{
+    display: unset;
+}
+.drop_items{
+    filter: blur(1px);
+}
+.drop_items:hover {
+    background-color:unset;
+    opacity: 0.9;
+    filter: blur(0);
+}
+.drop_items img{
+    width: 5% !important;
+}
 /* jumbo */
 .maxi_banner {
     background-image: url("../img/jumbo-bg.png");
