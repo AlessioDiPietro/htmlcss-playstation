@@ -69,10 +69,10 @@
 }
 
 /* sconti */
-.sconti {
+/* .sconti {
     background-color:maroon;
     min-height: 300px;
-}
+} */
 .sconti .selection {
     background-color: white;
     border: 1px solid red;
@@ -128,6 +128,10 @@ h3 {
 .color_white {
     color: white;
 }
+.underline_link {
+    text-decoration: underline !important;
+}
+
 /* header */
 header a{
     color:black !important;
@@ -140,7 +144,6 @@ header a{
 .head_top img {
     width: 10rem;
 }
-
 /* head-down */
 .dropdown-toggle::after {
     content: none;
@@ -281,6 +284,14 @@ header a{
 /* footer */
 .info_utility {
     background-color: #00439c;
+    font-weight: 600;
+}
+.info_utility li{
+    list-style: none;
+}
+.info_utility a {
+    text-decoration: none;
+    color: white;
 }
 #globe_mini {
     width: 3%;
