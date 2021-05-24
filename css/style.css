@@ -91,13 +91,13 @@
 } */
 
 /* social */
-.social {
+/* .social {
     min-height: 100px;
     background-color: blue;
 }
 .social_title {
     border:1px solid black;
-}
+} */
 
 /* info utility */
 .info_utility {
@@ -121,7 +121,8 @@ h3 {
 }
 .accessory_card img,
 .img_ps5 img,
-.nuovi_sconti img {
+.nuovi_sconti img,
+.social img {
     width: 100%;
 }
 .color_white {
@@ -146,6 +147,9 @@ header a{
 }
 .nav-item img {
     width: 1rem;
+}
+.head_bottom {
+    background-color: white;
 }
 
 /* jumbo */
@@ -244,6 +248,7 @@ header a{
     background-color: lightgrey;
     color: #2d64e6;
     width: inherit;
+    font-weight: 600;
 }
 .plus_left {
     display: flex;
@@ -260,3 +265,17 @@ header a{
 .ps_now {
     background-color: #161c3b;
 }
+.btn_now {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    width: inherit;
+}
+
+/* social */
+.social_title {
+    margin-bottom: 4rem;
+    font-size: 2rem !important;
+}
+
+/* footer */
