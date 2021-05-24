@@ -100,14 +100,14 @@
 } */
 
 /* info utility */
-.info_utility {
+/* .info_utility {
     min-height: 300px;
     background-color: lightblue;
 }
 .info_utility .row .col-12 {
     background-color: indigo;
     min-height: 80px;
-}
+} */
 /* fine area debug */
 
 
@@ -279,3 +279,18 @@ header a{
 }
 
 /* footer */
+.info_utility {
+    background-color: #00439c;
+}
+#globe_mini {
+    width: 3%;
+    vertical-align: -1px;
+}
+.select_country {
+    width: unset;
+    display: inline;
+    background-color: #00439c;
+    color: white;
+    border: none;
+    background-image: none;
+}
